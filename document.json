@@ -1,0 +1,75 @@
+{
+  "name": "Prometheus Operator Test",
+  "description": "Prometheus Operator",
+  "logo": "_images/Custom.png",
+  "has_supporting_content": true,
+  "stack_id": "Prometheus_Operator_Test-operator_1609753465497",
+  "type": "Operators",
+  "Categories": [
+    "Container",
+    "Data API"
+  ],
+  "source_repo": "https://github.ibm.com/dwedge/operator-playground-stackCreator/tree/validation",
+  "cover": "cover.md",
+  "use_explorer_dataset": false,
+  "use_catalog_dataset": "",
+  "is_s3_type": false,
+  "meta": {
+    "Install Time": [
+      "5 minutes"
+    ],
+    "Type": [
+      "Operators"
+    ],
+    "Categories": [
+      "Container",
+      "Data API"
+    ],
+    "Catalog Id": [
+      "Prometheus_Operator_Test-operator_1609753465497"
+    ],
+    "Contact": [
+      "edge@ibm.com"
+    ],
+    "Preferred Platform": [
+      "Kubernetes"
+    ],
+    "Usage Example(URL)": [
+      "https://github.ibm.com/dwedge/operator-playground-stackCreator/tree/validation"
+    ],
+    "Last updated": [
+      "Dec 28 2020"
+    ],
+    "Managed By": [
+      "Edge Team"
+    ],
+    "License and Use Rights": [
+      "Edge@ibm"
+    ]
+  },
+  "commands": [
+    {
+      "description": "Set Namespace",
+      "exec": "export PROMETHEUS_OPERATOR_NAMESPACE=operators"
+    },
+    {
+      "description": "Prepare Workspace",
+      "exec": "cd /home/student/projects && mkdir prometheus-operator && cd prometheus-operator"
+    },
+    {
+      "description": "Install Operator",
+      "exec": "kubectl create -f https://operatorhub.io/install/prometheus.yaml"
+    }
+  ],
+  "deployment_information": {
+    "Operator_Project": "NA",
+    "Deployment_Namespace": "my-Prometheus_Operator_Test-operator_1609753465497-operator-app"
+  },
+  "display": [
+    {
+      "name": "Developer Dashboard",
+      "url": "##DNS.host##/codeserver",
+      "enabled": true
+    }
+  ]
+}

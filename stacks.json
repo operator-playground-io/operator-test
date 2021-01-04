@@ -1,0 +1,25 @@
+{
+  "title": "Prometheus Operator Test",
+  "description": "Prometheus Operator",
+  "logo": "_images/Custom.png",
+  "enabled": true,
+  "category_label": [
+    "Operators"
+  ],
+  "document": "",
+  "stack_id": "Prometheus_Operator_Test-operator_1609753465497",
+  "de_catalog_id": "Prometheus_Operator_Test-operator_1609753465497",
+  "type": "Operators",
+  "categories": [
+    "Container",
+    "Data API"
+  ],
+  "tag": [],
+  "has_api": false,
+  "has_dataset": false,
+  "is_certified": true,
+  "has_support": true,
+  "git_url": "https://github.com/operator-playground-io/operator-tile-test.git",
+  "git_commit": "",
+  "installTime": "5 minutes"
+}

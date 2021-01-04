@@ -1,0 +1,40 @@
+{
+  "name": "Prometheus Operator Tutorial",
+  "appLayout": "accordion",
+  "appTheme": "g90",
+  "footer": "footer.md",
+  "tutorials": [
+    {
+      "description": "A User Guide for verification of Prometheus Operator Installation",
+      "duration": "5 minutes",
+      "title": "Prometheus Operator Installation Verification Tutorial",
+      "tutorial_name": "Prometheus-Operator-Installation-Verification-Tutorial.md"
+    },
+    {
+      "description": "Prometheus Instance Creation tutorial",
+      "duration": "30 minutes",
+      "title": "Prometheus Instance Creation tutorial",
+      "tutorial_name": "Prometheus-Instance-Creation-tutorial.md"
+    },
+    {
+      "description": "learn how to monitor targets using Prometheus",
+      "duration": "25 minutes",
+      "title": "Monitor targets through Prometheus",
+      "tutorial_name": "Monitor-targets-through-Prometheus.md"
+    }
+  ],
+  "usefulLinks": [
+    {
+      "description": "Prometheus Operator",
+      "url": "https://operatorhub.io/operator/prometheus",
+      "title": "Prometheus Operator"
+    }
+  ],
+  "demos": [
+    {
+      "description": "Test",
+      "url": "https://github.com/i-data-explorer",
+      "title": "Test demo"
+    }
+  ]
+}
